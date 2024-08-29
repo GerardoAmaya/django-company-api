@@ -71,4 +71,4 @@ Ahora deberías poder visitar las rutas `/login/`, `/register/`, y `/home/` para
 
 ## Autor
 
-- **Gerardo Amaya** - *Desarrollador* - [gerardoamaya@example.com](mailto:gerardoamaya@example.com)
+- **Gerardo Amaya** - *Desarrollador* - [gerardoamayasv2000@gmail.com](mailto:gerardoamayasv2000@gmail.com)
