@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    {% if user.is_authenticated %}
+        <h1>Bienvenido, {{ user.username }}!</h1>
+        <p>Este es tu dashboard.</p>
+        <a href="{% url 'logout' %}">Cerrar sesión</a>
+    {% else %}
+        <h1>Bienvenido a nuestro sitio</h1>
+        <p>Por favor, <a href="{% url 'login' %}">inicia sesión</a> o <a href="{% url 'register' %}">regístrate</a>.</p>
+    {% endif %}
+</body>
+</html>
